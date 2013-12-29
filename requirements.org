@@ -95,6 +95,7 @@
 ** Submission Instructions
    - Fork my repository from github
      https://github.com/abramhindle/CMPUT404-assignment-css-hell
+     git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
    - Push your commits to your fork
    - In EClass for this assignment submit a URL to the git
      repository. I would prefer github for the host.
