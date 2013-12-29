@@ -1,0 +1,111 @@
+* Explore HTML and CSS
+** Description
+
+   You will get experience with existing HTML and CSS and you will
+   make some of your own as well.
+
+** Collaboration
+   - You may consult with others but the submission should be your
+     own source code.
+   - You may work (pair program) with 1 other person, but both of you
+     need to submit your work separately.
+   - Collaboration but be documents in the README.md file
+   - Any external source code must be referenced and documented in
+     the README.md file
+
+** Part I
+
+   Add 1 CSS to 3 project Gutenberg documents that have more than 3
+   chapters each.
+
+   Change the look and feel of 3 project Gutenberg HTML documents of your
+   choosing, I recommend making the documents look old using serif
+   fonts use yellowish or paper-like backgrounds:
+
+   http://www.gutenberg.org/browse/scores/top
+
+   Some of these books are archaic and subscribe to archaic and
+   outdated values. If they offend you, choose something else from
+   the Gutenberg catalogue.
+
+*** Requirements
+
+    - [ ] Theme paragraphs with CSS
+    - [ ] Theme header tags with CSS
+    - [ ] Theme images and images captions with CSS
+    - [ ] Change the colour scheme to something aesthetically pleasing
+    - [ ] Apply 1 CSS file to 3 gutenberg documents.
+    - [ ] document in your README what modifications you had to make
+      to the project gutenberg HTML files.
+    - [ ] Take 3 screenshots of firefox running all of your pages that
+      demonstrates your theme.
+
+** Part II 
+
+   You're going to make your own HTML page and you're going to make 2
+   CSS themes for it.
+
+   Emulate the 2nd and 3rd design from this comic: 
+   http://theoatmeal.com/comics/design_hell
+
+   But instead make a 1 webpage about each assignment partner (1 page
+   if you are doing this solo and 2 webpages that advertises you to
+   employers.
+
+   Include at least 3 sections:
+
+   Who you are + photo
+
+   Your professional history
+
+   What you can do for a potential employer/what you have to offer
+
+   Then a sidebar of important points they should know about you.
+
+   Make 1 ugly CSS and 1 good CSS just like the design_hell comic.
+
+   You should make a page good enough you'd actually use it as your homepage.
+
+*** Requirements
+
+    - [ ] 4 sections: who you are, your history, what you have to
+      offer, important points about you
+    - [ ] 1 Ugly CSS theme
+    - [ ] 1 good CSS theme
+    - [ ] 2 HTML files, each with the same content but different CSS
+    - [ ] your photo (try to keep it professional)
+    - [ ] Take 2 screenshots of firefox running all of your pages that
+      demonstrates your theme.
+    
+
+** Restrictions
+   - [ ] Use Python 2.7
+   - [ ] Must run in the undergrad lab (Ubuntu 12.04)
+   - [ ] License your content properly (use a Creative Commons License
+     like CC-BY-ND or CC-BY-SA)
+     - Put your name on it!
+   - [ ] If you borrow CSS, always cite the author and the source
+
+** Recommendations
+
+   - Go look at CSS on the internet. Check the licenses.
+
+   - Look how things are achieved.
+
+** Submission Instructions
+   - Fork my repository from github
+     https://github.com/abramhindle/CMPUT404-assignment-css-hell
+   - Push your commits to your fork
+   - In EClass for this assignment submit a URL to the git
+     repository. I would prefer github for the host.
+     - Line 1: the git URL
+     - Line 2: Your CCID
+     - Line 3: Your collaborator's CCID
+
+** Marking
+   - 3 for the appropriate skinning the gutenberg stories with new CSS 
+   - 3 marks for the 2 versions of your page
+   - 1 mark for making the CSS for your promotion pages look as close
+     to theoatmeal comic as possible (don't steal his images).
+
+   Marks will be deducted for lack of screenshots and lack of README
