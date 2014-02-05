@@ -1,0 +1,114 @@
+body { 
+
+	margin:5%;
+ 	text-align:justify;
+ 	background-color: #EEEEEE;
+}
+
+P {
+	text-indent: 2em;
+	margin-top: .25em;
+	margin-right: 20%;
+	margin-left: 20%;
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-size: 1.25em;
+	line-height: 2em;
+}
+
+H1,H2,H3,H4,H5,H6 {
+	text-align:
+	center;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-family: "Lucida Bright", Georgia, serif;
+}
+
+table, th, td {
+	margin: 0 auto;
+	font-family: "Lucida Bright", Georgia, serif;
+	font-size: 1.15em;
+	padding-left: 20px
+}
+
+a {
+	font-family: "Lucida Bright", Georgia, serif;
+	font-size: 1.25em;
+	text-decoration: none;
+	color:black;
+}
+
+a:visited {
+	color:black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr  {
+	width: 50%;
+	text-align: center;
+}
+
+.foot {
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+	text-indent: -3em;
+	font-size: 90%;
+}
+
+blockquote {
+	font-size: 97%;
+	font-style: italic;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.mynote {
+	background-color: #DDE;
+	color: #000;
+	padding: .5em;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: sans-serif;
+	font-size: 95%;
+}
+
+.toc {
+	margin-left: 10%;
+	margin-bottom: .75em;
+}
+
+.toc2 {
+	margin-left: 20%;
+}
+
+img {
+	padding: 5px;
+	border: solid 1px #EFEFEF;
+}
+
+a:hover img {
+	border: solid 1px #CCC;
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+}
+
+.pagenum {
+	display:inline; 
+	font-size: 70%; 
+	font-style:normal;
+	margin: 0; 
+	padding: 0; 
+	position: absolute; 
+	right: 1%;
+	text-align: right;
+}
+
+pre { 
+	font-style: italic; 
+	font-size: 90%; 
+	text-align: center;
+}
