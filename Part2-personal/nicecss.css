@@ -1,0 +1,118 @@
+body {
+	width: 960px;
+	background-color: #4D505B;
+	display:block;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+div.headerBar {
+	width: 100%;
+	display:block;
+	position: fixed;
+	top:0px;
+	left:0px;
+	height: 50px;
+	z-index: 50;
+	text-align:left;
+	background-color: #595C69;
+	box-shadow: 0px 8px 17px -8px rgba(0, 0, 0, 0.1);
+}
+
+ul.headerList {
+	margin: 0;
+	height: 50px;
+	text-align: center;
+}
+
+.headerLinks {
+	list-style: none;
+	height: 50px;
+	width: 100px;
+	float: left;
+}
+
+div.headerLink {
+	line-height: 50px;
+	display: block;
+	vertical-align: middle;
+	list-style: none;
+}
+
+.navLink {
+	font-family: 'Nunito', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #AAAAAA;
+	text-indent: 0;
+	text-decoration: none;
+}
+
+.navLink:hover {
+	text-decoration: underline;
+}
+
+.headerText {
+	display:inline-block;
+	vertical-align:middle;
+}
+
+div.content {
+	background-color:#4D505B;
+	clear:both;
+	position:relative;
+	top:0px;
+	left:0px;
+	margin-top:60px;
+	text-align:center;
+	z-index:5;
+	padding-bottom: 20px;
+}
+
+div.footer {
+	border-top: 1px solid #6C7080;
+	background-color: #4D505B;
+	display: block;
+	clear:both;
+	width: 960px;
+	height: 100px;
+	margin:0px auto 0px auto;
+	padding-bottom: 30px;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 0.75em;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+div.sidebar {
+	margin-top:50px;
+	margin-left: 0;
+	background-color: #6c7080;
+	width: 300px;
+	float:left;
+	text-align: left;
+	padding-right: 2.5%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+div.professionalHistory {
+	padding-left: 2.5%;
+	margin-top:60px;
+	float:left;
+}
+
+.sectionHeader {
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+}
