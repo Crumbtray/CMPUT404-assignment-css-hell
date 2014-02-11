@@ -28,22 +28,21 @@ body {
 }
 
 div.content {
-	background-color:#4D505B;
-	clear:both;
-	position:relative;
-	top:0px;
-	left:0px;
-	margin-top:60px;
-	text-align:center;
-	z-index:5;
-	padding-bottom: 20px;
+	width:600px;
+	float:left;
+	padding-left: 3%;
+	padding-top: 5%;
+	height: 100%;
+	font-family: 'Droid Serif', serif;
+	font-size: 14px;
+	line-height: 1.5em;
 }
 
 div.footer {
 	border-top: 1px solid #AAAAAA;
 	display: block;
 	clear:both;
-	margin:0px auto 0px auto;
+	margin: 20px auto 0px auto;
 	padding-bottom: 30px;
 	display:inline-block;
 	vertical-align: middle;
@@ -55,7 +54,7 @@ div.footer {
 div.sidebar {
 	margin-left: 0;
 	background-color: #6C7080;
-	width: 300px;
+	width: 20%;
 	height: 100%;
 	float:left;
 	text-align: left;
@@ -66,31 +65,55 @@ div.sidebar {
 	box-shadow: 8px 0px 17px -4px rgba(0, 0, 0, 0.1);
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
+	line-height: 2em;
+}
+
+div.techSkills {
+	margin:0;
+	padding-bottom:20px;
 }
 
 div.professionalHistory {
-	padding-left: 5%;
-	padding-top: 3%;
+	width: 600px;
 	float:left;
+}
+
+.professionalHistory p {
+	padding-left: 15%;
+}
+
+.professionalHistory a {
+	text-decoration: none;
+	color:#343A4A;
+	font-weight: bold;
+}
+
+.professionalHistory a:hover {
+	color:#616E91;
 }
 
 h1, h3 {
 	color: #343A4A;
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Droid Serif', serif;
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 32px;
+	padding-bottom: 10px;
 }
 
 h3 {
+	text-indent: 0;
 	text-align:left;
 	position:relative;
     z-index:2;
 }
 
 .line-center{
-    margin:0;padding:0 10px;
+	font-family: 'Lobster', cursive;
+	font-size: 24px;
+    margin:0;
+    padding:0 10px;
     background:#969CB3;
     display:inline-block;
 }
@@ -103,4 +126,8 @@ h3:after {
     right:0;
     border-top:solid 1px #BBBBBB;
     z-index:-1;
+}
+
+.techChart {
+	padding-left: 5%;
 }

@@ -4,40 +4,101 @@
 		<title>Personal Webpage</title>
 		<link href="nicecss.css" rel="stylesheet" />
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 		<!-- <link href="hellcss.css" rel="stylesheet" /> -->
+
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		google.load("visualization", "1", {packages:["corechart"]});
+		google.setOnLoadCallback(drawChart);
+		function drawChart() {
+			var data = google.visualization.arrayToDataTable([
+				['Language', 'Skill Level', { role: 'style' }, { role: 'annotation' } ],
+				['C#', 100, 'dodgerblue', 'C#'],
+				['Ruby', 95, 'crimson', 'Ruby'],
+				['Python', 90, 'green', 'Py'],
+				['JavaScript', 60, 'goldenrod', 'Js' ],
+				['Java', 100, 'sienna', 'Java' ],
+				['C', 60, 'darkolivegreen', 'C' ]
+				]);
+
+
+			var options = {
+				width: 600,
+				height: 250,
+				chartArea: {width:'80%', height: '100%'},
+				backgroundColor : '#969CB3',
+				hAxis : { 
+					minValue: 0, 
+					textPosition: 'none', 
+					gridlines: {color: 'transparent'},
+					},
+				legend : {position: 'none'},
+				enableInteractivity: false,
+				fontName: 'Raleway'
+			};
+
+			var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+			chart.draw(data, options);
+		}
+    </script>
 	</head>
 	<body>
-		<!-- <div class="content">
-			<img src="images/totoroSmile.jpg" />
-		</div> -->
 		<div class="sidebar">
+			<img src="images/mugshot.jpg" />
 			<p>
 				<a href="#" class="nameLink">Clinton Wong</a> is finishing his 5th year at the University of Alberta, studying Computer Software Engineering, Co-Op option.
 			</p>
 			<p>
-				If you are here to potentially hire me, you should know that I am a software developer that preaches Test Driven Development, and won't blink when asked to write technical documentation.
+				I am a software developer that isn't afraid to crunch out tests, and won't blink when asked to write technical documentation.
 			</p>
 			<p>
-				If you are here for leisure, please entertain yourself by exploring my projects.
+				I like to play video games on the side.
 			</p>
 			<div class="footer">
-			<p>This webpage is <strong>guaranteed</strong> to be better than Thomas's</p>
+				<p>This webpage is <strong>guaranteed</strong> to be better than Thomas's</p>
 			</div>
 		</div>
-		<div class="professionalHistory">
-			<h1> Professional History </h1>
-			<div class="yearBlock">
-				<h3><span  class="line-center">2014</span></h3>
-				<p> SHIT I DID IN 2014 </p>
+		<div class="content">
+			<div class="techSkills">
+				<h1> Technical Skills </h1>
+				<div class="techChart">
+					<p> Programming Languages: </p>
+					<div id="chart_div" style="width: 600px; height: 250px;"></div>
+				</div>
 			</div>
-			<div class="yearBlock">
-				<h3><span  class="line-center">2013</span></h3>
-				<p>Shit I did in 2013</p>
-			</div>
-			<div class="yearBlock">
-				<h3><span  class="line-center">2012</span></h3>
-				<p>Shit I did in 2012</p>
+			<div class="professionalHistory">
+				<h1> Professional History </h1>
+				<div class="yearBlock">
+					<h3><span  class="line-center">2013</span></h3>
+					<p>	<i>January - August</i>
+						<br /> 
+						<a href="http://www.ge-ip.com/">GE Intelligent Platforms </a>
+						<br/>
+						Software Developer Co-Op Intern
+						<br/>
+						Worked on the <a href="http://www.ge-ip.com/pumpstation">Pump Station</a> project
+					</p>
+				</div>
+				<div class="yearBlock">
+					<h3><span  class="line-center">2012</span></h3>
+					<p>	<i>January - August</i>
+						<br /> 
+						<a href="http://www.autonomy.com/"> HP Autonomy </a>
+						<br/>
+						Quality Assurance Tester
+					</p>
+				</div>
+				<div class="yearBlock">
+					<h3><span  class="line-center">2011</span></h3>
+					<p>	<i>January - August</i>
+						<br /> 
+						<a href="https://www.ab.bluecross.ca/"> Alberta Blue Cross </a>
+						<br/>
+						Junior Database Administrator
+					</p>
+				</div>
 			</div>
 		</div>
 
